@@ -23,9 +23,10 @@ class App extends Component {
     }
   
   render() {
+    const {users} = this.state;
     return (
       <div className="App">
-
+      <UserList users={users}/>
       </div>
     );
   }
